@@ -5,6 +5,6 @@
 
 nome = str(input("Qual é o seu nome? "))
 
-print("Bom dia, {}!".format(nome))
+print(f"Bom dia, {nome}!")
 
 # %%

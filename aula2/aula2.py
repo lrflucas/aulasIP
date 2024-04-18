@@ -50,6 +50,7 @@ numero = float(input("Digite um número: "))
 
 while numero >= 0:
     print("Positivo")
+    break
 else:
     print("Negativo")
     

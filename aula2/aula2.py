@@ -37,9 +37,10 @@ for numero in range(1, 11):
 # Faça um programa que converta metros para centímetros
 
 numero = float(input("Digite um número em metros: "))
+cm = (numero*100)
 
-for cm in numero:
-    print(cm*100)
+print(f"Em metros: {numero}")
+print(f"Em centímetros: {cm}")
 
 #%%
 
